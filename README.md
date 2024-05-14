@@ -1,61 +1,61 @@
-# # Moodle Clone - Backlog
+# Moodle Clone - Backlog
 
-# ## 1. Implementasi Manajemen Pengguna (User)
-#    - Membuat fitur registrasi, login, dan manajemen profil pengguna
-#    - Mengimplementasikan peran (Role) dan pemberian peran (RoleAssignment)
-#    - Menyimpan preferensi pengguna (UserPreference)
+## 1. Implementasi Manajemen Pengguna (User)
+   - Membuat fitur registrasi, login, dan manajemen profil pengguna
+   - Mengimplementasikan peran (Role) dan pemberian peran (RoleAssignment)
+   - Menyimpan preferensi pengguna (UserPreference)
 
-# ## 2. Pengembangan Fitur Kursus (Course) 
-#    - Membuat manajemen kategori kursus (CourseCategory)
-#    - Mengimplementasikan pembuatan, pengeditan, dan penghapusan kursus
-#    - Menambahkan fitur pengaturan kursus (format, tanggal mulai/selesai, dll.)
+## 2. Pengembangan Fitur Kursus (Course) 
+   - Membuat manajemen kategori kursus (CourseCategory)
+   - Mengimplementasikan pembuatan, pengeditan, dan penghapusan kursus
+   - Menambahkan fitur pengaturan kursus (format, tanggal mulai/selesai, dll.)
 
-# ## 3. Implementasi Struktur Kursus
-#    - Membuat fitur pembuatan dan manajemen bagian (Section) dalam kursus
-#    - Mengimplementasikan modul aktivitas (ActivityModule) yang dapat ditambahkan ke dalam bagian
+## 3. Implementasi Struktur Kursus
+   - Membuat fitur pembuatan dan manajemen bagian (Section) dalam kursus
+   - Mengimplementasikan modul aktivitas (ActivityModule) yang dapat ditambahkan ke dalam bagian
 
-# ## 4. Pengembangan Modul Aktivitas
-#    - Mengimplementasikan modul Lesson beserta halaman pelajaran (LessonPage)
-#    - Membuat modul Forum dengan fitur diskusi (Discussion) dan posting (Post)
-#    - Mengimplementasikan modul Quiz dengan manajemen pertanyaan (Question) dan jawaban (Answer)
-#    - Membuat modul Assignment dengan fitur pengumpulan tugas (Submission) dan pemberian umpan balik (Feedback)
+## 4. Pengembangan Modul Aktivitas
+   - Mengimplementasikan modul Lesson beserta halaman pelajaran (LessonPage)
+   - Membuat modul Forum dengan fitur diskusi (Discussion) dan posting (Post)
+   - Mengimplementasikan modul Quiz dengan manajemen pertanyaan (Question) dan jawaban (Answer)
+   - Membuat modul Assignment dengan fitur pengumpulan tugas (Submission) dan pemberian umpan balik (Feedback)
 
-# ## 5. Implementasi Buku Nilai (Gradebook)
-#    - Membuat fitur kategori buku nilai (GradebookCategory) dan item buku nilai (GradebookItem)
-#    - Mengimplementasikan pemberian nilai (GradeItem) untuk setiap pengguna
-#    - Menambahkan metode penilaian (GradingMethod) untuk tugas
+## 5. Implementasi Buku Nilai (Gradebook)
+   - Membuat fitur kategori buku nilai (GradebookCategory) dan item buku nilai (GradebookItem)
+   - Mengimplementasikan pemberian nilai (GradeItem) untuk setiap pengguna
+   - Menambahkan metode penilaian (GradingMethod) untuk tugas
 
-# ## 6. Pengembangan Fitur Pelacakan Penyelesaian (Completion Tracking)
-#    - Membuat kriteria penyelesaian (CompletionCriteria) untuk kursus
-#    - Mengimplementasikan pelacakan penyelesaian kursus (CourseCompletion) untuk setiap pengguna
-#    - Menambahkan pelacakan penyelesaian aktivitas (ActivityCompletion) untuk setiap pengguna
+## 6. Pengembangan Fitur Pelacakan Penyelesaian (Completion Tracking)
+   - Membuat kriteria penyelesaian (CompletionCriteria) untuk kursus
+   - Mengimplementasikan pelacakan penyelesaian kursus (CourseCompletion) untuk setiap pengguna
+   - Menambahkan pelacakan penyelesaian aktivitas (ActivityCompletion) untuk setiap pengguna
 
-# ## 7. Implementasi Fitur Grup (Group)
-#    - Membuat manajemen grup dalam kursus
-#    - Mengimplementasikan keanggotaan grup (GroupMembership) untuk pengguna
+## 7. Implementasi Fitur Grup (Group)
+   - Membuat manajemen grup dalam kursus
+   - Mengimplementasikan keanggotaan grup (GroupMembership) untuk pengguna
 
-# ## 8. Pengembangan Sistem Berkas (File)
-#    - Mengimplementasikan penyimpanan dan manajemen berkas yang diunggah dalam kursus
-#    - Menghubungkan berkas dengan entitas terkait seperti Submission dan Feedback
+## 8. Pengembangan Sistem Berkas (File)
+   - Mengimplementasikan penyimpanan dan manajemen berkas yang diunggah dalam kursus
+   - Menghubungkan berkas dengan entitas terkait seperti Submission dan Feedback
 
-# ## 9. Implementasi Fitur Kalender dan Acara (Event)
-#    - Membuat manajemen acara dalam kursus
-#    - Menampilkan kalender dengan acara yang terkait dengan kursus
+## 9. Implementasi Fitur Kalender dan Acara (Event)
+   - Membuat manajemen acara dalam kursus
+   - Menampilkan kalender dengan acara yang terkait dengan kursus
 
-# ## 10. Pengembangan Sistem Pencatatan (Logging)
-#     - Mengimplementasikan pencatatan aktivitas pengguna (Log)
-#     - Membuat pencatatan kejadian sistem (EventLog)
+## 10. Pengembangan Sistem Pencatatan (Logging)
+    - Mengimplementasikan pencatatan aktivitas pengguna (Log)
+    - Membuat pencatatan kejadian sistem (EventLog)
 
-# ## 11. Pengujian dan Perbaikan Bug 
-#     - Melakukan pengujian menyeluruh pada semua fitur dan modul
-#     - Memperbaiki bug dan melakukan penyempurnaan berdasarkan umpan balik pengguna
+## 11. Pengujian dan Perbaikan Bug 
+    - Melakukan pengujian menyeluruh pada semua fitur dan modul
+    - Memperbaiki bug dan melakukan penyempurnaan berdasarkan umpan balik pengguna
 
-# ## 12. Dokumentasi dan Panduan Pengguna
-#     - Membuat dokumentasi teknis untuk pengembang
-#     - Menyusun panduan pengguna untuk admin dan instruktur
+## 12. Dokumentasi dan Panduan Pengguna
+    - Membuat dokumentasi teknis untuk pengembang
+    - Menyusun panduan pengguna untuk admin dan instruktur
 
-# Catatan: Backlog ini disusun berdasarkan ERD yang diberikan. Beberapa fitur dan entitas mungkin perlu 
-# ditambahkan atau dimodifikasi sesuai dengan kebutuhan dan kompleksitas proyek klon Moodle yang sebenarnya.
+Catatan: Backlog ini disusun berdasarkan ERD yang diberikan. Beberapa fitur dan entitas mungkin perlu 
+ditambahkan atau dimodifikasi sesuai dengan kebutuhan dan kompleksitas proyek klon Moodle yang sebenarnya.
 
 erDiagram
 User {
