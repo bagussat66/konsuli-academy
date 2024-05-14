@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+
+.btn-primary {
+    background-color: #ec5252;
+    border-color: #ec5252;
+}
+
+.btn-primary:hover {
+    background-color: #e63939;
+    border-color: #e63939;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
