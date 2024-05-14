@@ -1,4 +1,4 @@
-# Moodle Clone - Backlog
+# Konsuli Academy - Backlog
 
 ## 1. Implementasi Manajemen Pengguna (User)
    - Membuat fitur registrasi, login, dan manajemen profil pengguna
