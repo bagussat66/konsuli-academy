@@ -43,16 +43,16 @@
    - Menampilkan kalender dengan acara yang terkait dengan kursus
 
 ## 10. Pengembangan Sistem Pencatatan (Logging)
-    - Mengimplementasikan pencatatan aktivitas pengguna (Log)
-    - Membuat pencatatan kejadian sistem (EventLog)
+   - Mengimplementasikan pencatatan aktivitas pengguna (Log)
+   - Membuat pencatatan kejadian sistem (EventLog)
 
 ## 11. Pengujian dan Perbaikan Bug 
-    - Melakukan pengujian menyeluruh pada semua fitur dan modul
-    - Memperbaiki bug dan melakukan penyempurnaan berdasarkan umpan balik pengguna
+   - Melakukan pengujian menyeluruh pada semua fitur dan modul
+   - Memperbaiki bug dan melakukan penyempurnaan berdasarkan umpan balik pengguna
 
 ## 12. Dokumentasi dan Panduan Pengguna
-    - Membuat dokumentasi teknis untuk pengembang
-    - Menyusun panduan pengguna untuk admin dan instruktur
+   - Membuat dokumentasi teknis untuk pengembang
+   - Menyusun panduan pengguna untuk admin dan instruktur
 
 Catatan: Backlog ini disusun berdasarkan ERD yang diberikan. Beberapa fitur dan entitas mungkin perlu 
 ditambahkan atau dimodifikasi sesuai dengan kebutuhan dan kompleksitas proyek klon Moodle yang sebenarnya.
