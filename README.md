@@ -57,6 +57,7 @@
 Catatan: Backlog ini disusun berdasarkan ERD yang diberikan. Beberapa fitur dan entitas mungkin perlu 
 ditambahkan atau dimodifikasi sesuai dengan kebutuhan dan kompleksitas proyek klon Moodle yang sebenarnya.
 
+```
 erDiagram
 User {
     id int PK
