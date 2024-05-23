@@ -8,7 +8,6 @@ Epics:
 5. Manajemen Nilai
 6. Transkrip Akademik
 7. Manajemen Pembayaran
-8. Integrasi dengan Moodle
 
 User Stories:
 
@@ -44,12 +43,6 @@ Epic 7: Manajemen Pembayaran
 - Sebagai Admin, saya ingin dapat membuat data pembayaran mahasiswa untuk mencatat status pembayaran.
 - Sebagai Admin, saya ingin dapat memperbarui data pembayaran mahasiswa jika ada perubahan.
 - Sebagai Mahasiswa, saya ingin dapat melihat status pembayaran saya untuk memastikan pembayaran telah diterima.
-
-Epic 8: Integrasi dengan Moodle
-- Sebagai Mahasiswa, saya ingin dapat melihat jadwal kuliah yang diambil dari Moodle agar sesuai dengan data di SIA.
-- Sebagai Mahasiswa, saya ingin dapat melihat nilai yang diambil dari Moodle agar sinkron dengan data di SIA.
-- Sebagai Mahasiswa, saya ingin dapat mengakses materi kuliah dari Moodle melalui SIA untuk kemudahan akses.
-- Sebagai Dosen, saya ingin dapat mengelola aktivitas pembelajaran di Moodle melalui SIA untuk efisiensi.
 
 
 # Entity Relationship Diagram
