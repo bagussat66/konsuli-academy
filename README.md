@@ -1,595 +1,201 @@
 # Konsuli Academy - Backlog
 
-## 1. Implementasi Manajemen Pengguna (User)
-   - Membuat fitur registrasi, login, dan manajemen profil pengguna
-   - Mengimplementasikan peran (Role) dan pemberian peran (RoleAssignment)
-   - Menyimpan preferensi pengguna (UserPreference)
+Epics:
+1. Manajemen Pengguna
+2. Manajemen Program Studi
+3. Manajemen Mata Kuliah
+4. Manajemen Enrollment
+5. Manajemen Nilai
+6. Transkrip Akademik
+7. Manajemen Pembayaran
+8. Integrasi dengan Moodle
 
-## 2. Pengembangan Fitur Kursus (Course) 
-   - Membuat manajemen kategori kursus (CourseCategory)
-   - Mengimplementasikan pembuatan, pengeditan, dan penghapusan kursus
-   - Menambahkan fitur pengaturan kursus (format, tanggal mulai/selesai, dll.)
+User Stories:
 
-## 3. Implementasi Struktur Kursus
-   - Membuat fitur pembuatan dan manajemen bagian (Section) dalam kursus
-   - Mengimplementasikan modul aktivitas (ActivityModule) yang dapat ditambahkan ke dalam bagian
+Epic 1: Manajemen Pengguna
+- Sebagai Admin, saya ingin dapat membuat akun pengguna baru agar pengguna dapat mengakses sistem.
+- Sebagai Admin, saya ingin dapat memperbarui data akun pengguna agar informasi pengguna selalu up-to-date.
+- Sebagai Admin, saya ingin dapat menghapus akun pengguna yang sudah tidak aktif untuk menjaga keamanan sistem.
 
-## 4. Pengembangan Modul Aktivitas
-   - Mengimplementasikan modul Lesson beserta halaman pelajaran (LessonPage)
-   - Membuat modul Forum dengan fitur diskusi (Discussion) dan posting (Post)
-   - Mengimplementasikan modul Quiz dengan manajemen pertanyaan (Question) dan jawaban (Answer)
-   - Membuat modul Assignment dengan fitur pengumpulan tugas (Submission) dan pemberian umpan balik (Feedback)
+Epic 2: Manajemen Program Studi
+- Sebagai Admin, saya ingin dapat membuat program studi baru agar dapat mengelola mata kuliah terkait.
+- Sebagai Admin, saya ingin dapat memperbarui data program studi agar informasi selalu akurat.
+- Sebagai Admin, saya ingin dapat menghapus program studi yang sudah tidak aktif untuk menjaga konsistensi data.
 
-## 5. Implementasi Buku Nilai (Gradebook)
-   - Membuat fitur kategori buku nilai (GradebookCategory) dan item buku nilai (GradebookItem)
-   - Mengimplementasikan pemberian nilai (GradeItem) untuk setiap pengguna
-   - Menambahkan metode penilaian (GradingMethod) untuk tugas
+Epic 3: Manajemen Mata Kuliah
+- Sebagai Admin, saya ingin dapat membuat mata kuliah baru agar dapat diambil oleh mahasiswa.
+- Sebagai Admin, saya ingin dapat memperbarui data mata kuliah agar informasi selalu akurat.
+- Sebagai Admin, saya ingin dapat menghapus mata kuliah yang sudah tidak ditawarkan untuk menjaga konsistensi data.
 
-## 6. Pengembangan Fitur Pelacakan Penyelesaian (Completion Tracking)
-   - Membuat kriteria penyelesaian (CompletionCriteria) untuk kursus
-   - Mengimplementasikan pelacakan penyelesaian kursus (CourseCompletion) untuk setiap pengguna
-   - Menambahkan pelacakan penyelesaian aktivitas (ActivityCompletion) untuk setiap pengguna
+Epic 4: Manajemen Enrollment
+- Sebagai Admin, saya ingin dapat mendaftarkan mahasiswa ke mata kuliah agar mahasiswa dapat mengikuti perkuliahan.
+- Sebagai Admin, saya ingin dapat mengeluarkan mahasiswa dari mata kuliah jika diperlukan.
 
-## 7. Implementasi Fitur Grup (Group)
-   - Membuat manajemen grup dalam kursus
-   - Mengimplementasikan keanggotaan grup (GroupMembership) untuk pengguna
+Epic 5: Manajemen Nilai
+- Sebagai Dosen, saya ingin dapat memasukkan nilai mahasiswa agar tersimpan dalam sistem.
+- Sebagai Dosen, saya ingin dapat memperbarui nilai mahasiswa jika ada perubahan.
+- Sebagai Dosen, saya ingin dapat mengambil nilai dari Moodle agar sinkron dengan SIA.
 
-## 8. Pengembangan Sistem Berkas (File)
-   - Mengimplementasikan penyimpanan dan manajemen berkas yang diunggah dalam kursus
-   - Menghubungkan berkas dengan entitas terkait seperti Submission dan Feedback
+Epic 6: Transkrip Akademik
+- Sebagai Dosen, saya ingin dapat menghasilkan transkrip akademik mahasiswa untuk keperluan administrasi.
+- Sebagai Mahasiswa, saya ingin dapat melihat transkrip akademik saya untuk memantau progres studi.
 
-## 9. Implementasi Fitur Kalender dan Acara (Event)
-   - Membuat manajemen acara dalam kursus
-   - Menampilkan kalender dengan acara yang terkait dengan kursus
+Epic 7: Manajemen Pembayaran
+- Sebagai Admin, saya ingin dapat membuat data pembayaran mahasiswa untuk mencatat status pembayaran.
+- Sebagai Admin, saya ingin dapat memperbarui data pembayaran mahasiswa jika ada perubahan.
+- Sebagai Mahasiswa, saya ingin dapat melihat status pembayaran saya untuk memastikan pembayaran telah diterima.
 
-## 10. Pengembangan Sistem Pencatatan (Logging)
-   - Mengimplementasikan pencatatan aktivitas pengguna (Log)
-   - Membuat pencatatan kejadian sistem (EventLog)
+Epic 8: Integrasi dengan Moodle
+- Sebagai Mahasiswa, saya ingin dapat melihat jadwal kuliah yang diambil dari Moodle agar sesuai dengan data di SIA.
+- Sebagai Mahasiswa, saya ingin dapat melihat nilai yang diambil dari Moodle agar sinkron dengan data di SIA.
+- Sebagai Mahasiswa, saya ingin dapat mengakses materi kuliah dari Moodle melalui SIA untuk kemudahan akses.
+- Sebagai Dosen, saya ingin dapat mengelola aktivitas pembelajaran di Moodle melalui SIA untuk efisiensi.
 
-## 11. Pengujian dan Perbaikan Bug 
-   - Melakukan pengujian menyeluruh pada semua fitur dan modul
-   - Memperbaiki bug dan melakukan penyempurnaan berdasarkan umpan balik pengguna
 
-## 12. Dokumentasi dan Panduan Pengguna
-   - Membuat dokumentasi teknis untuk pengembang
-   - Menyusun panduan pengguna untuk admin dan instruktur
-
-Catatan: Backlog ini disusun berdasarkan ERD yang diberikan. Beberapa fitur dan entitas mungkin perlu 
-ditambahkan atau dimodifikasi sesuai dengan kebutuhan dan kompleksitas proyek klon Moodle yang sebenarnya.
-
+# Entity Relationship Diagram
 ```
 erDiagram
-User {
-    id int PK
-    name string
-    email string
-    password string
-    timezone string
-    language string
-    last_login timestamp
-}
-Role {
-    id int PK
-    name string
-    description text
-    archetype string
-}
+    USER ||--o{ ENROLLMENT : performs
+    USER ||--|| ROLE : has
+    USER ||--o{ PAYMENT : makes
+    
+    USER {
+        int user_id PK
+        string username
+        string email
+        string password
+        string first_name
+        string last_name
+    }
+    
+    ROLE {
+        int role_id PK
+        string role_name
+    }
+    
+    ADMIN }|--|| ROLE : is_a
+    TEACHER }|--|| ROLE : is_a
+    STUDENT }|--|| ROLE : is_a
+    
+    ENROLLMENT {
+        int enrollment_id PK
+        int user_id FK
+        string course_id
+        string semester
+        int credits
+        float grade
+    }
+    
+    TRANSCRIPT {
+        int transcript_id PK
+        int user_id FK
+        float gpa
+        string status
+    }
+    
+    TRANSCRIPT_DETAIL {
+        int transcript_detail_id PK
+        int transcript_id FK
+        string course_id
+        string semester
+        int credits
+        float grade
+    }
+    
+    PAYMENT {
+        int payment_id PK
+        int user_id FK
+        float amount
+        string payment_method
+        timestamp payment_date
+        string status
+    }
+    
+    USER ||--o{ TRANSCRIPT : has
+    TRANSCRIPT ||--|{ TRANSCRIPT_DETAIL : contains
+```
+# Use Case Diagram
+```
+usecase Academic Information System {
+    left to right direction
 
-RoleAssignment {
-    id int PK
-    user_id int FK
-    role_id int FK
-    context_type string
-    context_id int
-}
+    actor Admin
+    actor Teacher
+    actor Student
 
-CourseCategory {
-    id int PK
-    name string
-    description text
-    parent_id int FK
-    path string
-    depth int
-}
+    rectangle System {
+        usecase "Manage Users" as UC1
+        usecase "Create User Account" as UC1.1
+        usecase "Update User Account" as UC1.2
+        usecase "Delete User Account" as UC1.3
 
-Course {
-    id int PK
-    category_id int FK
-    full_name string
-    short_name string
-    summary text
-    start_date int
-    end_date int
-    visible boolean
-    format string
-    theme string
-    settings json
-}
+        usecase "Manage Study Programs" as UC2
+        usecase "Create Study Program" as UC2.1
+        usecase "Update Study Program" as UC2.2
+        usecase "Delete Study Program" as UC2.3
 
-Section {
-    id int PK
-    course_id int FK
-    name string
-    summary text
-    sequence text
-    visible boolean
-}
+        usecase "Manage Courses" as UC3
+        usecase "Create Course" as UC3.1
+        usecase "Update Course" as UC3.2
+        usecase "Delete Course" as UC3.3
 
-ActivityModule {
-    id int PK
-    course_id int FK
-    module_name string
-    instance_id int
-    section_id int FK
-    name string
-    intro text
-    visible boolean
-    completion int
-}
+        usecase "Manage Enrollments" as UC4
+        usecase "Enroll Student" as UC4.1
+        usecase "Drop Student" as UC4.2
 
-Activity {
-    id int PK
-    activity_module_id int FK
-    name string
-    intro text
-    completion_tracking string
-}
+        usecase "Manage Grades" as UC5
+        usecase "Enter Grades" as UC5.1
+        usecase "Update Grades" as UC5.2
+        usecase "Fetch Grades from Moodle" as UC5.3
 
-ActivityPage {
-    id int PK
-    activity_id int FK
-    title string
-    content text
-    type string
-    order int
-}
+        usecase "Generate Transcript" as UC6
 
-Forum {
-    id int PK
-    course_id int FK
-    type string
-    name string
-    intro text
-    assessed int
-    scale int
-}
+        usecase "Manage Payments" as UC7
+        usecase "Create Payment" as UC7.1
+        usecase "Update Payment" as UC7.2
 
-Discussion {
-    id int PK
-    forum_id int FK
-    name string
-    first_post_id int FK
-    user_id int FK
-    group_id int FK
-    assessed int
-}
+        usecase "View Course Schedule" as UC8
 
-Post {
-    id int PK
-    discussion_id int FK
-    parent_id int FK
-    user_id int FK
-    message text
-    rating int
-}
+        usecase "View Grades" as UC9
 
-QuestionCategory {
-    id int PK
-    course_id int FK
-    name string
-    info text
-    parent_id int FK
-}
+        usecase "Make Payment" as UC10
+    }
 
-Question {
-    id int PK
-    category_id int FK
-    type string
-    name string
-    questiontext text
-    generalfeedback text
-    defaultmark float
-}
+    Admin --> UC1
+    Admin --> UC1.1
+    Admin --> UC1.2
+    Admin --> UC1.3
 
-Answer {
-    id int PK
-    question_id int FK
-    answer text
-    fraction float
-    feedback text
-}
+    Admin --> UC2
+    Admin --> UC2.1
+    Admin --> UC2.2
+    Admin --> UC2.3
 
-Quiz {
-    id int PK
-    activity_module_id int FK
-    name string
-    intro text
-    time_open int
-    time_close int
-    time_limit int
-    attempts_number int
-    grade_method string
-    question_behavior string
-    review_options json
+    Admin --> UC3
+    Admin --> UC3.1
+    Admin --> UC3.2
+    Admin --> UC3.3
+
+    Admin --> UC4
+    Admin --> UC4.1
+    Admin --> UC4.2
+
+    Teacher --> UC5
+    Teacher --> UC5.1
+    Teacher --> UC5.2
+    Teacher --> UC5.3
+
+    Teacher --> UC6
+
+    Admin --> UC7
+    Admin --> UC7.1
+    Admin --> UC7.2
+
+    Student --> UC8
+
+    Student --> UC9
+
+    Student --> UC10
 }
 
-Assignment {
-    id int PK
-    activity_module_id int FK
-    name string
-    intro text
-    allow_submissions_from_date int
-    due_date int
-    cut_off_date int
-    max_attempts int
-    submission_types json
-    group_mode string
-    blind_marking boolean
-    plagiarism_plugin string
-}
 
-Submission {
-    id int PK
-    assignment_id int FK
-    user_id int FK
-    status string
-    content text
-    files json
-    time_created int
-    time_modified int
-    grade float
-}
-
-Feedback {
-    id int PK
-    submission_id int FK
-    grade float
-    content text
-    files json
-}
-
-Grade {
-    id int PK
-    user_id int FK
-    item_id int FK
-    grade float
-    time_created int
-    time_modified int
-}
-
-GradeHistory {
-    id int PK
-    grade_id int FK
-    old_grade float
-    new_grade float
-    time_created int
-}
-
-Scale {
-    id int PK
-    course_id int FK
-    name string
-    scale text
-    description text
-}
-
-Outcome {
-    id int PK
-    course_id int FK
-    short_name string
-    full_name string
-    description text
-}
-
-GradebookCategory {
-    id int PK
-    course_id int FK
-    name string
-    description text
-    parent_id int FK
-    aggregation string
-}
-
-GradebookItem {
-    id int PK
-    gradebook_category_id int FK
-    item_type string
-    item_module string
-    item_instance int
-    item_number int
-    calculation string
-    grade_type int
-    grade_max float
-    grade_min float
-    scale_id int FK
-    outcome_id int FK
-}
-
-Enrol {
-    id int PK
-    course_id int FK
-    user_id int FK
-    role_id int FK
-    time_start int
-    time_end int
-    status int
-}
-
-Cohort {
-    id int PK
-    context_id int
-    name string
-    description text
-}
-
-CohortMember {
-    id int PK
-    cohort_id int FK
-    user_id int FK
-}
-
-Notification {
-    id int PK
-    user_id int FK
-    course_id int FK
-    message text
-    type string
-    status int
-    time_created int
-}
-
-Message {
-    id int PK
-    user_from_id int FK
-    user_to_id int FK
-    message text
-    format int
-    time_created int
-}
-
-Backup {
-    id int PK
-    course_id int FK
-    user_id int FK
-    type int
-    execution_time int
-    file_path string
-}
-
-File {
-    id int PK
-    context_id int
-    component string
-    file_area string
-    item_id int
-    file_path string
-    file_name string
-    file_size int
-    mime_type string
-    time_created int
-}
-
-Tag {
-    id int PK
-    name string
-    description text
-}
-
-TagInstance {
-    id int PK
-    tag_id int FK
-    component string
-    item_type string
-    item_id int
-    context_id int
-}
-
-CompletionCriteria {
-    id int PK
-    course_id int FK
-    criteria_type string
-    criteria_value string
-}
-
-CourseCompletion {
-    id int PK
-    user_id int FK
-    course_id int FK
-    time_enrolled int
-    time_started int
-    time_completed int
-    status string
-}
-
-ActivityCompletion {
-    id int PK
-    user_id int FK
-    activity_module_id int FK
-    status string
-    time_completed int
-}
-
-Group {
-    id int PK
-    course_id int FK
-    name string
-    description text
-}
-
-GroupMembership {
-    id int PK
-    user_id int FK
-    group_id int FK
-}
-
-Event {
-    id int PK
-    name string
-    description text
-    format int
-    course_id int FK
-    group_id int FK
-    user_id int FK
-    instance_id int
-    event_type string
-    time_start int
-    time_end int
-    visible int
-}
-
-UserPreference {
-    id int PK
-    user_id int FK
-    name string
-    value string
-}
-
-Log {
-    id int PK
-    time int
-    user_id int FK
-    ip_address string
-    course_id int FK
-    module string
-    cmid int
-    action string
-    url string
-    info string
-}
-
-EventLog {
-    id int PK
-    event_name string
-    component string
-    action string
-    target string
-    object_table string
-    object_id int
-    crud string
-    user_id int FK
-    time_created int
-    ip_address string
-    other_data text
-}
-
-User ||--o{ RoleAssignment : has
-User ||--o{ Discussion : creates
-User ||--o{ Post : creates
-User ||--o{ Submission : submits
-User ||--o{ Grade : receives
-User ||--o{ Enrol : has
-User ||--o{ CohortMember : is
-User ||--o{ Notification : receives
-User ||--o{ Message : sends
-User ||--o{ Backup : creates
-User ||--o{ CourseCompletion : has
-User ||--o{ ActivityCompletion : has
-User ||--o{ GroupMembership : has
-User ||--o{ Event : creates
-User ||--o{ UserPreference : has
-User ||--o{ Log : generates
-User ||--o{ EventLog : generates
-
-Role ||--o{ RoleAssignment : is_assigned
-
-CourseCategory ||--o{ Course : contains
-CourseCategory ||--o{ CourseCategory : has_parent
-
-Course ||--o{ Section : has
-Course ||--o{ ActivityModule : has
-Course ||--o{ Forum : has
-Course ||--o{ QuestionCategory : has
-Course ||--o{ Scale : has
-Course ||--o{ Outcome : has
-Course ||--o{ GradebookCategory : has
-Course ||--o{ Enrol : has
-Course ||--o{ Notification : has
-Course ||--o{ Backup : has
-Course ||--o{ CompletionCriteria : has
-Course ||--o{ CourseCompletion : has
-Course ||--o{ Group : has
-Course ||--o{ Event : has
-
-Section ||--o{ ActivityModule : contains
-
-ActivityModule ||--o{ Activity : is
-ActivityModule ||--o{ Quiz : is
-ActivityModule ||--o{ Assignment : is
-ActivityModule ||--o{ ActivityCompletion : has
-
-Activity ||--o{ ActivityPage : has
-
-Forum ||--o{ Discussion : contains
-
-Discussion ||--o{ Post : contains
-Discussion ||--|{ Group : belongs_to
-
-QuestionCategory ||--o{ Question : contains
-QuestionCategory ||--o{ QuestionCategory : has_parent
-
-Question ||--o{ Answer : has
-Question ||--|{ Quiz : belongs_to
-
-Assignment ||--o{ Submission : receives
-
-Submission ||--o{ Feedback : receives
-Submission ||--o{ File : has
-
-Grade ||--|{ GradebookItem : belongs_to
-Grade ||--o{ GradeHistory : has
-
-Scale ||--|{ Course : belongs_to
-Scale ||--|{ GradebookItem : used_by
-
-Outcome ||--|{ Course : belongs_to
-Outcome ||--|{ GradebookItem : used_by
-
-GradebookCategory ||--o{ GradebookItem : contains
-GradebookCategory ||--o{ GradebookCategory : has_parent
-
-GradebookItem ||--o{ Grade : has
-
-Enrol ||--|{ User : belongs_to
-Enrol ||--|{ Course : belongs_to
-Enrol ||--|{ Role : has
-
-Cohort ||--o{ CohortMember : has
-
-CohortMember ||--|{ User : belongs_to
-
-Notification ||--|{ User : belongs_to
-Notification ||--|{ Course : belongs_to
-
-Message ||--|{ User : belongs_to
-
-Backup ||--|{ Course : belongs_to
-Backup ||--|{ User : belongs_to
-
-File ||--|{ Submission : belongs_to
-File ||--|{ Feedback : belongs_to
-
-Tag ||--o{ TagInstance : has
-
-TagInstance ||--|{ Tag : belongs_to
-
-CompletionCriteria ||--|{ Course : belongs_to
-
-CourseCompletion ||--|{ User : belongs_to
-CourseCompletion ||--|{ Course : belongs_to
-
-ActivityCompletion ||--|{ User : belongs_to
-ActivityCompletion ||--|{ ActivityModule : belongs_to
-
-Group ||--|{ Course : belongs_to
-
-GroupMembership ||--|{ User : belongs_to
-GroupMembership ||--|{ Group : belongs_to
-
-Event ||--|{ Course : belongs_to
-Event ||--|{ Group : belongs_to
-Event ||--|{ User : belongs_to
-
-Log ||--|{ User : belongs_to
-Log ||--|{ Course : belongs_to
-
-EventLog ||--|{ User : belongs_to
